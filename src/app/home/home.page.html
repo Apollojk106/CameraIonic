@@ -1,0 +1,12 @@
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <strong style="font-size: 200%;"> LOLZINHO DE CRIA?</strong>
+    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  </div>
+
+ <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <ion-fab-button (click)="CamService.TakePicture()">
+      <ion-icon name="camera"></ion-icon>
+    </ion-fab-button>
+ </ion-fab>
+</ion-content>
